@@ -23,4 +23,4 @@ jobs:
         with:
           python-version: '3.11'
       - name: Run alternate tests
-        run: make ALT_PYTHON=python test-alt
+        run: make test-alt
